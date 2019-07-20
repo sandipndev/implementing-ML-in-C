@@ -1,0 +1,51 @@
+?n(Data Points): 5
+Please fill up the dataset:
+1th -> ?x: 8
+1th -> ?y: 1
+2th -> ?x: 10
+2th -> ?y: 2
+3th -> ?x: 12
+3th -> ?y: 1
+4th -> ?x: 14
+4th -> ?y: 4
+5th -> ?x: 16
+5th -> ?y: 3
+This is the data you've entered:
+[  (   8,    1)
+   (  10,    2)
+   (  12,    1)
+   (  14,    4)
+   (  16,    3)   ]
+?Learning Rate: 0.001
+?Epochs: 60000
+Loss after 1 epochs = 3.373281
+Loss after 2 epochs = 2.011410
+Loss after 3 epochs = 1.355275
+Loss after 4 epochs = 1.039150
+Loss after 5 epochs = 0.886835
+Loss after 6 epochs = 0.813441
+Loss after 7 epochs = 0.778070
+Loss after 8 epochs = 0.761018
+Loss after 9 epochs = 0.752791
+Loss after 10 epochs = 0.748816
+Loss after 11 epochs = 0.746889
+Loss after 12 epochs = 0.745950
+Loss after 13 epochs = 0.745485
+Loss after 14 epochs = 0.745251
+Loss after 15 epochs = 0.745126
+Loss after 16 epochs = 0.745055
+[----truncated----]
+Loss after 59990 epochs = 0.640000
+Loss after 59991 epochs = 0.640000
+Loss after 59992 epochs = 0.640000
+Loss after 59993 epochs = 0.640000
+Loss after 59994 epochs = 0.640000
+Loss after 59995 epochs = 0.640000
+Loss after 59996 epochs = 0.640000
+Loss after 59997 epochs = 0.640000
+Loss after 59998 epochs = 0.640001
+Loss after 59999 epochs = 0.640001
+Loss after 60000 epochs = 0.640000
+Calculated Best Fit Line:
+y = 0.299789x + -1.397324
+MSE Loss = 0.640000
