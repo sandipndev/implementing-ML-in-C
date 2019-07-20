@@ -1,0 +1,54 @@
+?n(features): 3
+?n(observations): 5
+Please enter the values in the dataset:-
+?1th obs-> 1th feature: 2
+?1th obs-> 2th feature: 4
+?1th obs-> 3th feature: 3
+?1th obs-> y-value: 269.36
+?2th obs-> 1th feature: 7
+?2th obs-> 2th feature: 4
+?2th obs-> 3th feature: 5
+?2th obs-> y-value: 372.5
+?3th obs-> 1th feature: 3
+?3th obs-> 2th feature: 11
+?3th obs-> 3th feature: 20
+?3th obs-> y-value: 995.8
+?4th obs-> 1th feature: 16
+?4th obs-> 2th feature: 6
+?4th obs-> 3th feature: 12
+?4th obs-> y-value: 728.3
+?5th obs-> 1th feature: 30
+?5th obs-> 2th feature: 5
+?5th obs-> 3th feature: 30
+?5th obs-> y-value: 1250.6
+?Learning Rate: 0.001
+?Epochs: 1000000
+Loss in 1th epoch-> 167299.718750 	FeatureV-> [  [ 0.723, 11.061, 4.829, 13.769]   ]
+Loss in 2th epoch-> 59596.179688 	FeatureV-> [  [ 1.096, 15.829, 7.444, 20.361]   ]
+Loss in 3th epoch-> 34778.203125 	FeatureV-> [  [ 1.305, 17.695, 9.021, 23.613]   ]
+Loss in 4th epoch-> 27926.509766 	FeatureV-> [  [ 1.437, 18.228, 10.102, 25.306]   ]
+Loss in 5th epoch-> 25058.605469 	FeatureV-> [  [ 1.532, 18.157, 10.943, 26.268]   ]
+Loss in 6th epoch-> 23155.875000 	FeatureV-> [  [ 1.610, 17.820, 11.660, 26.881]   ]
+Loss in 7th epoch-> 21560.072266 	FeatureV-> [  [ 1.679, 17.373, 12.309, 27.324]   ]
+Loss in 8th epoch-> 20121.708984 	FeatureV-> [  [ 1.742, 16.887, 12.916, 27.680]   ]
+Loss in 9th epoch-> 18801.376953 	FeatureV-> [  [ 1.803, 16.396, 13.494, 27.989]   ]
+Loss in 10th epoch-> 17583.960938 	FeatureV-> [  [ 1.862, 15.914, 14.048, 28.267]   ]
+Loss in 11th epoch-> 16460.074219 	FeatureV-> [  [ 1.918, 15.447, 14.582, 28.526]   ]
+Loss in 12th epoch-> 15422.078125 	FeatureV-> [  [ 1.974, 14.998, 15.098, 28.767]   ]
+Loss in 13th epoch-> 14463.117188 	FeatureV-> [  [ 2.028, 14.567, 15.597, 28.995]   ]
+Loss in 14th epoch-> 13576.963867 	FeatureV-> [  [ 2.081, 14.155, 16.079, 29.210]   ]
+Loss in 15th epoch-> 12757.865234 	FeatureV-> [  [ 2.132, 13.761, 16.546, 29.414]   ]
+[-------truncated-------]
+Loss in 999990th epoch-> 1.457953   FeatureV-> [  [ 3.331, 10.289, 43.777, 23.994]   ]
+Loss in 999991th epoch-> 1.457953   FeatureV-> [  [ 3.331, 10.289, 43.777, 23.994]   ]
+Loss in 999992th epoch-> 1.457953   FeatureV-> [  [ 3.331, 10.289, 43.777, 23.994]   ]
+Loss in 999993th epoch-> 1.457953   FeatureV-> [  [ 3.331, 10.289, 43.777, 23.994]   ]
+Loss in 999994th epoch-> 1.457953   FeatureV-> [  [ 3.331, 10.289, 43.777, 23.994]   ]
+Loss in 999995th epoch-> 1.457953   FeatureV-> [  [ 3.331, 10.289, 43.777, 23.994]   ]
+Loss in 999996th epoch-> 1.457953   FeatureV-> [  [ 3.331, 10.289, 43.777, 23.994]   ]
+Loss in 999997th epoch-> 1.457953   FeatureV-> [  [ 3.331, 10.289, 43.777, 23.994]   ]
+Loss in 999998th epoch-> 1.457953   FeatureV-> [  [ 3.331, 10.289, 43.777, 23.994]   ]
+Loss in 999999th epoch-> 1.457953   FeatureV-> [  [ 3.331, 10.289, 43.777, 23.994]   ]
+Loss in 1000000th epoch-> 1.457953  FeatureV-> [  [ 3.331, 10.289, 43.777, 23.994]   ]
+[  [ 3.331, 10.289, 43.777, 23.994]   ]
+MSE Error: 1.457953
