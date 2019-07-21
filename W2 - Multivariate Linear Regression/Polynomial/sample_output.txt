@@ -1,0 +1,13 @@
+?n(degree of polynomial): 2
+?n(observations): 3
+Please enter the values in the dataset:-
+?1th x: 0
+?1th y: 3
+?2th x: 1
+?2th y: 4
+?3th x: 3
+?3th y: 0
+?Learning Rate: 0.01
+?Epochs: 100000
+[  [ 3.000, 2.000, -1.000]   ]
+MSE Error: 0.000000

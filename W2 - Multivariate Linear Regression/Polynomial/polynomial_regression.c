@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 // It's all about matrices
 typedef struct {
@@ -22,7 +23,7 @@ int main() {
 
     // Getting important numbers
     int n_features, n_observations;
-    printf("?n(features): ");
+    printf("?n(degree of polynomial): ");
     scanf("%d", &n_features);
     printf("?n(observations): ");
     scanf("%d", &n_observations);
@@ -70,16 +71,18 @@ matrix create_matrix(int rows, int cols) {
 // Takes user input for the matrix - initialize x0 with 1
 void take_user_input(matrix rx, matrix y) {
     int i, j;
+    float term;
     for (i=0; i<rx.rows; i++) {
+        printf("?%dth x: ", i+1);
+        scanf("%f", &term);
         for (j=0; j<rx.cols; j++) {
             if (j==0) {
                 rx.base_addr[i][j] = 1;
                 continue;
             }
-            printf("?%dth obs-> %dth feature: ", i+1, j);
-            scanf("%f", &rx.base_addr[i][j]);
+            rx.base_addr[i][j] = pow(term, j);
         }
-        printf("?%dth obs-> y-value: ", i+1);
+        printf("?%dth y: ", i+1);
         scanf("%f", &y.base_addr[i][0]);
     }
 }
@@ -176,8 +179,8 @@ matrix _multivariate_linear_regression(matrix dataset, matrix y_values, float le
             feature_vector.base_addr[0][j] -= learning_rate * sum / ( (float) dataset.rows);
         }
 
-        printf("Loss in %dth epoch-> %f \tFeatureV-> ", i+1, _mse_loss(dataset, y_values, feature_vector));
-        show_matrix(feature_vector);
+        // printf("Loss in %dth epoch-> %f \tFeatureV-> ", i+1, _mse_loss(dataset, y_values, feature_vector));
+        // show_matrix(feature_vector);
     }
 
     free(hyp.base_addr);
